@@ -1,0 +1,25 @@
+{
+  "name": "urban-gallery",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-append-sw": "^2.0.0",
+    "fixed-data-table-2": "^0.8.7",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-responsive": "^4.3.5"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build && cra-append-sw -s ./src/services/fetch-cached-requests-service-worker.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
