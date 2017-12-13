@@ -13,7 +13,7 @@ A **live demo** of the application can be found on this [**link**](https://snobb
 
 ## Responsive
 
-The app support 2 view-sizes: 
+The app supports 2 view-sizes: 
 
 **Desktop** and **mobile**
 
