@@ -27,7 +27,7 @@ Additionally, I added an inner "Load only if needed" logic to the Image componen
 
 ## Caching and Offline Support ##
 
-In order to support offline use of the app - I created the following [service worker]() which utilizes the native [caches api](https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage) and supplements the [Create-React-App](https://github.com/facebookincubator/create-react-app) out of the box service worker using [this tool](https://github.com/bbhlondon/cra-append-sw).
+In order to support offline use of the app - I created the following [service worker](https://github.com/itaydafna/urban-gallery/blob/master/src/services/fetch-cached-requests-service-worker.js) which utilizes the native [caches api](https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage) and supplements the [Create-React-App](https://github.com/facebookincubator/create-react-app) out of the box service worker using [this tool](https://github.com/bbhlondon/cra-append-sw).
 
  Please make sure you are running the app on [HTTPS](https://snobbish-eye.surge.sh/) in order to see this in action.
 
